@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 1000;
+  font-style: normal;
+}
+
+.title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  color: #163a34;
+}
+
+.careers-page{
+    background-color: #be8e8e;
+    max-width: 74.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas {
+    background-color: rgb(145, 145, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 74.5rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.real-life-section {
+  max-width: 74.5rem;
+  margin: 3rem auto;
+  background-color: #f3f1ec; /* tono similar al screenshot */
+  padding: 4rem 2rem;
+}

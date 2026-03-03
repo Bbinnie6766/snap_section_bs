@@ -1,0 +1,6 @@
+.img-cropped {
+    max-height: 700px;
+    object-fit: contain;
+    width: 100%;
+    object-position: center;
+}
