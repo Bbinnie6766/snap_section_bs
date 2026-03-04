@@ -63,11 +63,15 @@ export const Careers = () => {
             </div>
           </div>
 
-          <div className="">
-            <div className=''>
-              <h2>Ready to cook smarter?</h2>
-              <p>Hit the button, pick a recipe, and get dinner on the table—fast.</p>
-               <a className="btn btn-primary btn-lg" data-bs-toggle="button" style={{ backgroundColor: "#163a34", borderBlockColor: "#b4d1cc" }} > Start exploring </a>
+          <div className='footer'>
+            <div className="p-4" >
+              <div className="d-flex justify-content-center align-items-center flex-column" >
+
+                <h2>Ready to cook smarter?</h2>
+                <p>Hit the button, pick a recipe, and get dinner on the table—fast.</p>
+                <a className="btn btn-primary btn-lg " data-bs-toggle="button" style={{ backgroundColor: "#163a34", borderBlockColor: "#b4d1cc" }} > Browse recipes </a>
+
+              </div>
             </div>
           </div>
         </section>
