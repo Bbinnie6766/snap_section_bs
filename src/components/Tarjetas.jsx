@@ -12,7 +12,7 @@ export const Tarjetas = ({ titulo, description, imagen }) => {
 
                         <h4 className="fw-semibold mb-3">  {titulo} </h4>
 
-                        <p> {description}  </p>
+                        <p className="textoContent" > {description}  </p>
 
                     </div>
                 </div>
