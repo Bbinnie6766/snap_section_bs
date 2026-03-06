@@ -1,12 +1,15 @@
 /* cntr f */
 
+import { Link } from "react-router-dom"
+
 export const Header = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container">
 
-                    <a className="navbar-brand" href="#"><strong>Snap</strong></a>
+                    <Link className="navbar-brand" to="/" > SNAP</Link>
+
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -36,16 +39,19 @@ export const Header = () => {
                                     <li><a className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
+
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Careers</a>
+                                <Link className="nav-link" to="/careers">Careers</Link>
                             </li>
+
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
+                                <Link className="nav-link" to="/Comunidad">About</Link>
                             </li>
                         </ul>
                         <form className="d-flex">
-                            <button type="button" className="btn text-secondary">Login</button>
-                            <button type="button" class="btn btn-outline-secondary">Register</button>
+                            <Link className="btn text-secondary" to="/Login">Login</Link>
+
+                            <Link className="btn btn-outline-secondary" to="/Contacto">Register</Link>
                         </form>
 
                     </div>
