@@ -1,0 +1,38 @@
+.comunidad-page {
+  background: #e5eff5;
+}
+
+.comunidad-titulo {
+  color: #2da6a0;
+}
+
+.comunidad-garantia {
+  color: #b5c916;
+}
+
+.panel-izquierdo {
+  background: #2ec4b0;
+}
+
+.panel-derecho {
+  background: #28b3a0;
+}
+
+.precio-periodo {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-registrarse {
+  background: #b5c916;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-registrarse:hover {
+  background: #a3b514;
+}
