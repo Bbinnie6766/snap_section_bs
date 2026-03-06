@@ -20,9 +20,9 @@ export const Comunidad = () => {
 
         {/* top */}
         <div className="p-4 bg-white">
-          <h2 className="fw-bold mb-2 comunidad-titulo">Join our community</h2>
+          <h2 className="fw-bold mb-1 comunidad-titulo">Join our community</h2>
           <h5 className="fw-bold mb-3 comunidad-garantia">30-day, hassle-free money back guarantee</h5>
-          <p className="text-secondary mb-0">
+          <p className="text-secondary mb-0 text-primary --bs-text-"style={{opacity: ".5" }} >
             Gain access to our full library of tutorials along with expert code reviews.
             Perfect for any developers who are serious about honing their skills.
           </p>
